@@ -25,9 +25,9 @@ And it puts zlib.h & zconf.h in C:/zlib/include/zlib, and zlib.dll, zlib.lib, zl
 4. Right click quazip folder again and select add library
 5. Select External library because zlib is not in Quazip build tree
 6. Set library file & include path like this \
-![](res/4.png)
+![](res/4.PNG)
 7. Some paths will be added to quazip.pro file, save & build as Debug/Release mode
-8. Go to parent directory of folder quazip-(version), Debug/Release folder will be there ![](res/5.png)
+8. Go to parent directory of folder quazip-(version), Debug/Release folder will be there ![](res/5.PNG)
 9. For the release, go to release folder/quazip/release, 
 * quazip.dll is required to run application 
 * quazip.lib is required to build application
